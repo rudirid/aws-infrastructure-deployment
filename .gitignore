@@ -1,0 +1,46 @@
+# AWS Credentials and Secrets
+.env
+*.pem
+*.ppk
+*-key.pem
+*-Key.pem
+ARES-Docker-Key.pem
+
+# AWS Configuration Files with Account IDs
+s3-bucket-policy-*.json
+
+# Temporary and Test Files
+test-upload.txt
+*.tmp
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if added later)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Docker
+.dockerignore
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
